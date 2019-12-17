@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day01_JUC/day01_JUC.iml" filepath="$PROJECT_DIR$/day01_JUC/day01_JUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_JUC/day02_JUC.iml" filepath="$PROJECT_DIR$/day02_JUC/day02_JUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_JUC/day03_JUC.iml" filepath="$PROJECT_DIR$/day03_JUC/day03_JUC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_JUC/day04_JUC.iml" filepath="$PROJECT_DIR$/day04_JUC/day04_JUC.iml" />
+    </modules>
+  </component>
+</project>

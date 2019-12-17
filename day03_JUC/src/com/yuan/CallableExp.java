@@ -15,6 +15,8 @@ public class CallableExp {
         FutureTask futureTask = new FutureTask(new Mythread());
         new Thread(futureTask,"A").start();
         System.out.println(futureTask.get());
+
+        System.out.println("21234");
     }
 }
 
