@@ -10,8 +10,15 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class TicketJUC {
     public static void main(String[] args) {
-        ExecutorService threadPool = Executors.newFixedThreadPool(3);
-        //三个售票员
+        //三个售票员：一池固定3线程
+        // ExecutorService threadPool = Executors.newFixedThreadPool(3);
+        //一个售票员:一池1线程
+        // ExecutorService threadPool = Executors.newSingleThreadExecutor();
+        //多个售票员:一池多线程(可自动扩容)
+        ExecutorService threadPool = Executors.newCachedThreadPool();
+
+
+
         TicketThr ticketThr = new TicketThr();
 
         try {
@@ -24,15 +31,6 @@ public class TicketJUC {
             threadPool.shutdown();
         }
 
-        /*new Thread(() -> {
-            for (int i = 1; i < 500; i++) ticketThr.tickSale();
-        }, "A").start();
-        new Thread(() -> {
-            for (int i = 1; i < 500; i++) ticketThr.tickSale();
-        }, "B").start();
-        new Thread(() -> {
-            for (int i = 1; i < 500; i++) ticketThr.tickSale();
-        }, "C").start();*/
     }
 }
 
@@ -44,7 +42,7 @@ class TicketThr {
         lock.lock();
         try {
             if (tickets > 0) {
-                System.out.println(Thread.currentThread().getName() + "售出第" + (31 - tickets) + "张车票,剩余" + --tickets + "张车票");
+                System.out.println(Thread.currentThread().getName() + "\t售出第" + (31 - tickets) + "张车票,剩余" + --tickets + "张车票");
             }
         } finally {
             lock.unlock();

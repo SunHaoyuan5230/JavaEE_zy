@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c211cbfc-6596-4238-b9d1-7ec19a741889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/asd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_JUC/src/com/yuan/CallableExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/day03_JUC/src/com/yuan/CallableExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_JUC/src/com/yuan/BlockingQueueCoreMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04_JUC/src/com/yuan/MyThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java" beforeDir="false" afterPath="$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day04_JUC/com/yuan/TicketJUC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day04_JUC/com/yuan/TicketJUC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day04_JUC/com/yuan/TicketThr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day04_JUC/com/yuan/TicketThr.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/CyclicBarrierExp.java">
+        <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="384">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,38 +46,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/SemaphoreExp.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-8">
+              <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/CallableExp.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            <state relative-caret-position="232">
+              <caret line="549" column="57" selection-start-line="549" selection-start-column="57" selection-end-line="549" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#32187#32188#0" expanded="true" />
+                <element signature="e#32243#32244#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/asd.java">
+        <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/MyThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -108,7 +107,6 @@
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/CountDownLatchExp.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/ReadWriteLockExp.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/teacher.java" />
-        <option value="$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/ThreadOrderAccess.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/ThreadOrderAccessNew.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/CyclicBarrierExp.java" />
@@ -116,6 +114,9 @@
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/MythreadTest.java" />
         <option value="$PROJECT_DIR$/day03_JUC/src/com/yuan/CallableExp.java" />
         <option value="$PROJECT_DIR$/src/main/java/asd.java" />
+        <option value="$PROJECT_DIR$/day04_JUC/src/com/yuan/BlockingQueueCoreMethod.java" />
+        <option value="$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java" />
+        <option value="$PROJECT_DIR$/day04_JUC/src/com/yuan/MyThreadPool.java" />
       </list>
     </option>
   </component>
@@ -137,25 +138,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1570" />
     <option name="height" value="830" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,29 +176,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yuan" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaEE_zy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE_zy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEE_zy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE_zy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaEE_zy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE_zy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +230,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CallableExp">
+  <component name="RunManager" selected="Application.MyThreadPool">
+    <configuration name="BlockingQueueCoreMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuan.BlockingQueueCoreMethod" />
+      <module name="day04_JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CallableExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuan.CallableExp" />
       <module name="day03_JUC" />
@@ -266,9 +257,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuan.CyclicBarrierExp" />
-      <module name="day03_JUC" />
+    <configuration name="MyThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yuan.MyThreadPool" />
+      <module name="day04_JUC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yuan.*" />
@@ -281,19 +272,6 @@
     </configuration>
     <configuration name="SemaphoreExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yuan.SemaphoreExp" />
-      <module name="day03_JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadOrderAccessNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yuan.ThreadOrderAccessNew" />
       <module name="day03_JUC" />
       <extension name="coverage">
         <pattern>
@@ -327,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyThreadPool" />
+        <item itemvalue="Application.TicketJUC" />
+        <item itemvalue="Application.BlockingQueueCoreMethod" />
         <item itemvalue="Application.CallableExp" />
         <item itemvalue="Application.SemaphoreExp" />
-        <item itemvalue="Application.CyclicBarrierExp" />
-        <item itemvalue="Application.ThreadOrderAccessNew" />
-        <item itemvalue="Application.TicketJUC" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +334,9 @@
       <workItem from="1576456731126" duration="12914000" />
       <workItem from="1576510142878" duration="6025000" />
       <workItem from="1576543176417" duration="19399000" />
+      <workItem from="1576588685357" duration="684000" />
+      <workItem from="1576596677706" duration="3379000" />
+      <workItem from="1576648909377" duration="2817000" />
     </task>
     <task id="LOCAL-00001" summary="iml">
       <created>1576587500923</created>
@@ -371,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576588150687</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update01">
+      <created>1576588850781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576588850781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59369000" />
+    <option name="totallyTimeSpent" value="66249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -386,11 +374,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5009276" side_tool="true" weight="0.25536194" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49907234" visible="true" weight="0.1769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49907234" visible="true" weight="0.18297587" />
       <window_info id="Structure" order="6" sideWeight="0.5009276" side_tool="true" weight="0.25536194" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32841823" />
@@ -404,7 +392,7 @@
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" auto_hide="true" x="-7" y="403" width="1492" height="296" id="Run" order="1" weight="0.39625168" />
+      <window_info anchor="right" auto_hide="true" x="-7" y="403" width="1492" height="296" id="Run" order="1" weight="0.6756032" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -415,49 +403,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18096514" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32931727" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32756132" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="iml" />
     <MESSAGE value="day04" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04" />
+    <MESSAGE value="update01" />
+    <option name="LAST_COMMIT_MESSAGE" value="update01" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day01_JUC/src/SaleTicket.java" />
@@ -572,17 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="829" column="29" selection-start-line="829" selection-start-column="29" selection-end-line="829" selection-end-column="29" />
-          <folding>
-            <element signature="e#32187#32188#0" expanded="true" />
-            <element signature="e#32243#32244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -597,16 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/ThreadOrderAccessNew.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -618,16 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1341">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/CyclicBarrierExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -652,23 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/SemaphoreExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/MythreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/MythreadTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -679,10 +596,30 @@
     <entry file="file://$PROJECT_DIR$/JavaEE_zy.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/CyclicBarrierExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/SemaphoreExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day03_JUC/src/com/yuan/CallableExp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="432">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,12 +628,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/BlockingQueueCoreMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/TicketJUC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="549" column="57" selection-start-line="549" selection-start-column="57" selection-end-line="549" selection-end-column="57" />
+          <folding>
+            <element signature="e#32187#32188#0" expanded="true" />
+            <element signature="e#32243#32244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04_JUC/src/com/yuan/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
