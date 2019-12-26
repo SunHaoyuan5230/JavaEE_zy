@@ -9,9 +9,9 @@ import javax.jms.*;
  * @Date: 2019/12/25 19:23
  * @Description:
  */
-public class JMSProduce {
+public class JMSProduceTopic {
     public static final String MQ_URL="tcp://192.168.19.102:61616";
-    public static final String QUEUE_NAME="q1";
+    public static final String TOPIC_NAME="t1";
     public static void main(String[] args) throws JMSException {
 
         //1 获得ActiveMQConnectionFactory
@@ -25,13 +25,13 @@ public class JMSProduce {
         //4.2 签收模式
         Session session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
         //5 获得目的地，此例是队列
-        Queue queue = session.createQueue(QUEUE_NAME);
+        Topic topic = session.createTopic(TOPIC_NAME);
         //6 获得消息生产者,生产什么内容？生产出来放在哪里？
         //messageProducer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
-        MessageProducer producer = session.createProducer(queue);
+        MessageProducer producer = session.createProducer(topic);
         //7 生产message内容
         for (int i = 1; i <= 6; i++) {
-            TextMessage textMessage = session.createTextMessage("****msg---" + i);
+            TextMessage textMessage = session.createTextMessage("****Topic-msg---" + i);
             producer.send(textMessage);
         }
         //8 释放各种连接和资源

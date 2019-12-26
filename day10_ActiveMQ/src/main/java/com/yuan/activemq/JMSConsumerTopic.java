@@ -9,9 +9,9 @@ import javax.jms.*;
  * @Date: 2019/12/25 19:24
  * @Description:
  */
-public class JMSConsumer {
+public class JMSConsumerTopic {
     public static final String MQ_URL="tcp://192.168.19.102:61616";
-    public static final String QUEUE_NAME="q1";
+    public static final String TOPIC_NAME="t1";
     public static void main(String[] args) throws JMSException {
         //1 获得ActiveMQConnectionFactory
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory(MQ_URL);
@@ -23,10 +23,10 @@ public class JMSConsumer {
         //4.1 是否开启事务
         //4.2 签收模式
         Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        //5 获得目的地，此例是队列
-        Queue queue = session.createQueue(QUEUE_NAME);
+        //5 获得目的地，此例是主题
+        Topic topic = session.createTopic(TOPIC_NAME);
         //6 获得消息消费者,消费什么内容？从哪里消费？
-        MessageConsumer consumer = session.createConsumer(queue);
+        MessageConsumer consumer = session.createConsumer(topic);
           /*
         异步非阻塞方式(监听器onMessage())
         订阅者或接收者通过MessageConsumer的setMessageListener(MessageListener listener)注册一个消息监听器，
@@ -52,8 +52,8 @@ public class JMSConsumer {
         receive()将一直阻塞
         receive(long timeout) 按照给定的时间阻塞，到时间自动退出*/
         while(true){
-            // TextMessage message = (TextMessage) consumer.receive();
-            TextMessage message = (TextMessage) consumer.receive(3000);
+            TextMessage message = (TextMessage) consumer.receive(); //不需释放
+            // TextMessage message = (TextMessage) consumer.receive(3000); //需要释放
             if (message != null && message instanceof TextMessage) {
                 System.out.println("****consumer:" + message.getText());
             }else{
@@ -61,9 +61,9 @@ public class JMSConsumer {
             }
         }
         //8 释放各种连接和资源
-        consumer.close();
-        session.close();
-        connection.close();
+        // consumer.close();
+        // session.close();
+        // connection.close();
 
         System.out.println("****receive is ok!");
     }
